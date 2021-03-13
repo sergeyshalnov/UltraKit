@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Sources/**/*.swift"
   
   spec.source = { 
-    :git => "https://github.com/sergeyshalnov/UltraKit.git", 
-    :tag => "#{spec.version}"
+    :git => "https://github.com/sergeyshalnov/UltraKit.git",
+    :commit => "f02854768b090256509bfefdb09462bfc5c421cc"
   }
 
   spec.license = { 
