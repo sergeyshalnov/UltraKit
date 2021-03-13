@@ -19,7 +19,7 @@ platform :ios, '13.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'UltraKit', '~> 0.0.1'
+    pod 'UltraKit', '~> 0.0.3'
 end
 ```
 
@@ -37,6 +37,6 @@ To integrate UltraKit into your Xcode project using Swift Package Manager, add i
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sergeyshalnov/UltraKit.git", .upToNextMajor(from: "0.0.2"))
+    .package(url: "https://github.com/sergeyshalnov/UltraKit.git", .upToNextMajor(from: "0.0.3"))
 ]
 ```

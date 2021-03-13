@@ -15,23 +15,8 @@
 		1A51170A25FD67540065C645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170125FD67540065C645 /* AppDelegate.swift */; };
 		1A51170B25FD67540065C645 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170325FD67540065C645 /* BaseCollectionViewCell.swift */; };
 		1A51179525FD74A60065C645 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A51179425FD74A60065C645 /* SnapKit */; };
-		1A51179B25FD74BC0065C645 /* UltraKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A51179A25FD74BC0065C645 /* UltraKit.framework */; };
-		1A51179C25FD74BC0065C645 /* UltraKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A51179A25FD74BC0065C645 /* UltraKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1AB75F4C25FD784800606564 /* UltraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB75F4B25FD784800606564 /* UltraKit */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1A51179D25FD74BC0065C645 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1A51179C25FD74BC0065C645 /* UltraKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1A5116F725FD67540065C645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A51179B25FD74BC0065C645 /* UltraKit.framework in Frameworks */,
+				1AB75F4C25FD784800606564 /* UltraKit in Frameworks */,
 				1A51179525FD74A60065C645 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +127,6 @@
 				1A8A382825CC76A2002EBBC9 /* Sources */,
 				1A8A382925CC76A2002EBBC9 /* Frameworks */,
 				1A8A382A25CC76A2002EBBC9 /* Resources */,
-				1A51179D25FD74BC0065C645 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +135,7 @@
 			name = UltraKitExample;
 			packageProductDependencies = (
 				1A51179425FD74A60065C645 /* SnapKit */,
+				1AB75F4B25FD784800606564 /* UltraKit */,
 			);
 			productName = UltraKitExample;
 			productReference = 1A8A382C25CC76A2002EBBC9 /* UltraKitExample.app */;
@@ -181,6 +166,7 @@
 			mainGroup = 1A8A382325CC76A2002EBBC9;
 			packageReferences = (
 				1A51179325FD74A60065C645 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1AB75F4A25FD784800606564 /* XCRemoteSwiftPackageReference "UltraKit" */,
 			);
 			productRefGroup = 1A8A382D25CC76A2002EBBC9 /* Products */;
 			projectDirPath = "";
@@ -418,6 +404,14 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		1AB75F4A25FD784800606564 /* XCRemoteSwiftPackageReference "UltraKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sergeyshalnov/UltraKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -425,6 +419,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1A51179325FD74A60065C645 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		1AB75F4B25FD784800606564 /* UltraKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AB75F4A25FD784800606564 /* XCRemoteSwiftPackageReference "UltraKit" */;
+			productName = UltraKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
