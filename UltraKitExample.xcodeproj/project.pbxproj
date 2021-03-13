@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FDFCAA1BAC78A741FB3CB72 /* Pods_UltraKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4222BB8C0271913E51FF0548 /* Pods_UltraKitExample.framework */; };
 		1A51170425FD67540065C645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5116F725FD67540065C645 /* Assets.xcassets */; };
 		1A51170525FD67540065C645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5116F825FD67540065C645 /* LaunchScreen.storyboard */; };
 		1A51170725FD67540065C645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5116FC25FD67540065C645 /* ViewController.swift */; };
@@ -15,18 +14,19 @@
 		1A51170925FD67540065C645 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170025FD67540065C645 /* LabelCell.swift */; };
 		1A51170A25FD67540065C645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170125FD67540065C645 /* AppDelegate.swift */; };
 		1A51170B25FD67540065C645 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170325FD67540065C645 /* BaseCollectionViewCell.swift */; };
-		1ADFC5AA25D30DAC0003D8AA /* UltraKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADFC5A925D30DAC0003D8AA /* UltraKit.framework */; };
-		1ADFC5AB25D30DAC0003D8AA /* UltraKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADFC5A925D30DAC0003D8AA /* UltraKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A51179525FD74A60065C645 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A51179425FD74A60065C645 /* SnapKit */; };
+		1A51179B25FD74BC0065C645 /* UltraKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A51179A25FD74BC0065C645 /* UltraKit.framework */; };
+		1A51179C25FD74BC0065C645 /* UltraKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A51179A25FD74BC0065C645 /* UltraKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1ADFC5AC25D30DAC0003D8AA /* Embed Frameworks */ = {
+		1A51179D25FD74BC0065C645 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1ADFC5AB25D30DAC0003D8AA /* UltraKit.framework in Embed Frameworks */,
+				1A51179C25FD74BC0065C645 /* UltraKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,11 +42,8 @@
 		1A51170025FD67540065C645 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
 		1A51170125FD67540065C645 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A51170325FD67540065C645 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A51179A25FD74BC0065C645 /* UltraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UltraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8A382C25CC76A2002EBBC9 /* UltraKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ADFC5A925D30DAC0003D8AA /* UltraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UltraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4222BB8C0271913E51FF0548 /* Pods_UltraKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UltraKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FF004E3078A6CE935230095 /* Pods-UltraKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltraKitExample.release.xcconfig"; path = "Target Support Files/Pods-UltraKitExample/Pods-UltraKitExample.release.xcconfig"; sourceTree = "<group>"; };
-		638E1C8B7ED878D0175269F3 /* Pods-UltraKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltraKitExample.debug.xcconfig"; path = "Target Support Files/Pods-UltraKitExample/Pods-UltraKitExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,23 +51,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADFC5AA25D30DAC0003D8AA /* UltraKit.framework in Frameworks */,
-				0FDFCAA1BAC78A741FB3CB72 /* Pods_UltraKitExample.framework in Frameworks */,
+				1A51179B25FD74BC0065C645 /* UltraKit.framework in Frameworks */,
+				1A51179525FD74A60065C645 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001FD7576091D42753FEC0C1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4222BB8C0271913E51FF0548 /* Pods_UltraKitExample.framework */,
-				1ADFC5A925D30DAC0003D8AA /* UltraKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1A5116F625FD67540065C645 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,13 +107,20 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		1A51179925FD74BC0065C645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A51179A25FD74BC0065C645 /* UltraKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1A8A382325CC76A2002EBBC9 = {
 			isa = PBXGroup;
 			children = (
 				1A5116FB25FD67540065C645 /* Sources */,
 				1A8A382D25CC76A2002EBBC9 /* Products */,
-				FC4BAE67D44A7BC42086073A /* Pods */,
-				001FD7576091D42753FEC0C1 /* Frameworks */,
+				1A51179925FD74BC0065C645 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,15 +132,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC4BAE67D44A7BC42086073A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				638E1C8B7ED878D0175269F3 /* Pods-UltraKitExample.debug.xcconfig */,
-				4FF004E3078A6CE935230095 /* Pods-UltraKitExample.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,18 +139,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A8A384025CC76A5002EBBC9 /* Build configuration list for PBXNativeTarget "UltraKitExample" */;
 			buildPhases = (
-				AAD71DFB96C31039DCA8A7EF /* [CP] Check Pods Manifest.lock */,
 				1A8A382825CC76A2002EBBC9 /* Sources */,
 				1A8A382925CC76A2002EBBC9 /* Frameworks */,
 				1A8A382A25CC76A2002EBBC9 /* Resources */,
-				3B0BEDEA917C04BA68E1A5CC /* [CP] Embed Pods Frameworks */,
-				1ADFC5AC25D30DAC0003D8AA /* Embed Frameworks */,
+				1A51179D25FD74BC0065C645 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = UltraKitExample;
+			packageProductDependencies = (
+				1A51179425FD74A60065C645 /* SnapKit */,
+			);
 			productName = UltraKitExample;
 			productReference = 1A8A382C25CC76A2002EBBC9 /* UltraKitExample.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +179,9 @@
 				Base,
 			);
 			mainGroup = 1A8A382325CC76A2002EBBC9;
+			packageReferences = (
+				1A51179325FD74A60065C645 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1A8A382D25CC76A2002EBBC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -212,48 +202,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3B0BEDEA917C04BA68E1A5CC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UltraKitExample/Pods-UltraKitExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UltraKitExample/Pods-UltraKitExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UltraKitExample/Pods-UltraKitExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AAD71DFB96C31039DCA8A7EF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UltraKitExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A8A382825CC76A2002EBBC9 /* Sources */ = {
@@ -333,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -388,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +348,6 @@
 		};
 		1A8A384125CC76A5002EBBC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 638E1C8B7ED878D0175269F3 /* Pods-UltraKitExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -421,7 +368,6 @@
 		};
 		1A8A384225CC76A5002EBBC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FF004E3078A6CE935230095 /* Pods-UltraKitExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +408,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A51179325FD74A60065C645 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A51179425FD74A60065C645 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A51179325FD74A60065C645 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A8A382425CC76A2002EBBC9 /* Project object */;
 }
