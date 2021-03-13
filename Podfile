@@ -4,7 +4,7 @@ project 'UltraKitExample.xcodeproj'
 workspace 'UltraKitExample.xcworkspace'
 
 target 'UltraKit' do
-  project 'UltraKit/UltraKit'
+  project 'UltraKit'
 end
 
 target 'UltraKitExample' do

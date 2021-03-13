@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   spec.framework = "UIKit"
-  spec.source_files  = "UltraKit/**/*.{h,m,swift}"
+  spec.source_files  = "Sources/**/*.{h,m,swift}"
   
   spec.source = { 
     :git => "https://github.com/sergeyshalnov/UltraKit.git", 

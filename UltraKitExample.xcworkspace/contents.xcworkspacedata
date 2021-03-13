@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:UltraKit/UltraKit.xcodeproj">
+      location = "group:UltraKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:UltraKitExample.xcodeproj">

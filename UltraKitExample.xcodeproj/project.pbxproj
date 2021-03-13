@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0FDFCAA1BAC78A741FB3CB72 /* Pods_UltraKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4222BB8C0271913E51FF0548 /* Pods_UltraKitExample.framework */; };
-		1A5116E725FD5B5D0065C645 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5116E625FD5B5D0065C645 /* BaseCollectionViewCell.swift */; };
-		1A5116EA25FD5B860065C645 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5116E925FD5B860065C645 /* LabelCell.swift */; };
-		1A5116EC25FD5C450065C645 /* LabelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5116EB25FD5C450065C645 /* LabelViewModel.swift */; };
-		1A8A383025CC76A2002EBBC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A382F25CC76A2002EBBC9 /* AppDelegate.swift */; };
-		1A8A383425CC76A2002EBBC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A383325CC76A2002EBBC9 /* ViewController.swift */; };
-		1A8A383925CC76A5002EBBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8A383825CC76A5002EBBC9 /* Assets.xcassets */; };
-		1A8A383C25CC76A5002EBBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8A383A25CC76A5002EBBC9 /* LaunchScreen.storyboard */; };
+		1A51170425FD67540065C645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5116F725FD67540065C645 /* Assets.xcassets */; };
+		1A51170525FD67540065C645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5116F825FD67540065C645 /* LaunchScreen.storyboard */; };
+		1A51170725FD67540065C645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5116FC25FD67540065C645 /* ViewController.swift */; };
+		1A51170825FD67540065C645 /* LabelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5116FF25FD67540065C645 /* LabelViewModel.swift */; };
+		1A51170925FD67540065C645 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170025FD67540065C645 /* LabelCell.swift */; };
+		1A51170A25FD67540065C645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170125FD67540065C645 /* AppDelegate.swift */; };
+		1A51170B25FD67540065C645 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170325FD67540065C645 /* BaseCollectionViewCell.swift */; };
 		1ADFC5AA25D30DAC0003D8AA /* UltraKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADFC5A925D30DAC0003D8AA /* UltraKit.framework */; };
 		1ADFC5AB25D30DAC0003D8AA /* UltraKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADFC5A925D30DAC0003D8AA /* UltraKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -34,15 +34,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1A5116E625FD5B5D0065C645 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
-		1A5116E925FD5B860065C645 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
-		1A5116EB25FD5C450065C645 /* LabelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewModel.swift; sourceTree = "<group>"; };
+		1A5116F725FD67540065C645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A5116F925FD67540065C645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A5116FA25FD67540065C645 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5116FC25FD67540065C645 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A5116FF25FD67540065C645 /* LabelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelViewModel.swift; sourceTree = "<group>"; };
+		1A51170025FD67540065C645 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		1A51170125FD67540065C645 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A51170325FD67540065C645 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		1A8A382C25CC76A2002EBBC9 /* UltraKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A8A382F25CC76A2002EBBC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A8A383325CC76A2002EBBC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A8A383825CC76A5002EBBC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A8A383B25CC76A5002EBBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1A8A383D25CC76A5002EBBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ADFC5A925D30DAC0003D8AA /* UltraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UltraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4222BB8C0271913E51FF0548 /* Pods_UltraKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UltraKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF004E3078A6CE935230095 /* Pods-UltraKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UltraKitExample.release.xcconfig"; path = "Target Support Files/Pods-UltraKitExample/Pods-UltraKitExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,35 +71,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1A5116E425FD5B4D0065C645 /* Helpers */ = {
+		1A5116F625FD67540065C645 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1A5116E625FD5B5D0065C645 /* BaseCollectionViewCell.swift */,
+				1A5116F725FD67540065C645 /* Assets.xcassets */,
+				1A5116F825FD67540065C645 /* LaunchScreen.storyboard */,
+				1A5116FA25FD67540065C645 /* Info.plist */,
 			);
-			path = Helpers;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		1A5116E825FD5B720065C645 /* Cells */ = {
+		1A5116FB25FD67540065C645 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				1A5116F525FD5D060065C645 /* LabelCell */,
+				1A51170125FD67540065C645 /* AppDelegate.swift */,
+				1A5116FC25FD67540065C645 /* ViewController.swift */,
+				1A5116FD25FD67540065C645 /* Cells */,
+				1A51170225FD67540065C645 /* Helpers */,
+				1A5116F625FD67540065C645 /* Resources */,
+			);
+			name = Sources;
+			path = Example/Sources;
+			sourceTree = "<group>";
+		};
+		1A5116FD25FD67540065C645 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1A5116FE25FD67540065C645 /* LabelCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		1A5116F525FD5D060065C645 /* LabelCell */ = {
+		1A5116FE25FD67540065C645 /* LabelCell */ = {
 			isa = PBXGroup;
 			children = (
-				1A5116E925FD5B860065C645 /* LabelCell.swift */,
-				1A5116EB25FD5C450065C645 /* LabelViewModel.swift */,
+				1A51170025FD67540065C645 /* LabelCell.swift */,
+				1A5116FF25FD67540065C645 /* LabelViewModel.swift */,
 			);
 			path = LabelCell;
+			sourceTree = "<group>";
+		};
+		1A51170225FD67540065C645 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1A51170325FD67540065C645 /* BaseCollectionViewCell.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		1A8A382325CC76A2002EBBC9 = {
 			isa = PBXGroup;
 			children = (
-				1A8A382E25CC76A2002EBBC9 /* UltraKitExample */,
+				1A5116FB25FD67540065C645 /* Sources */,
 				1A8A382D25CC76A2002EBBC9 /* Products */,
 				FC4BAE67D44A7BC42086073A /* Pods */,
 				001FD7576091D42753FEC0C1 /* Frameworks */,
@@ -112,36 +135,6 @@
 				1A8A382C25CC76A2002EBBC9 /* UltraKitExample.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1A8A382E25CC76A2002EBBC9 /* UltraKitExample */ = {
-			isa = PBXGroup;
-			children = (
-				1ADFC5A525D30D660003D8AA /* Source */,
-				1ADFC5A425D30D550003D8AA /* Resources */,
-			);
-			path = UltraKitExample;
-			sourceTree = "<group>";
-		};
-		1ADFC5A425D30D550003D8AA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1A8A383825CC76A5002EBBC9 /* Assets.xcassets */,
-				1A8A383A25CC76A5002EBBC9 /* LaunchScreen.storyboard */,
-				1A8A383D25CC76A5002EBBC9 /* Info.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		1ADFC5A525D30D660003D8AA /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				1A8A382F25CC76A2002EBBC9 /* AppDelegate.swift */,
-				1A8A383325CC76A2002EBBC9 /* ViewController.swift */,
-				1A5116E825FD5B720065C645 /* Cells */,
-				1A5116E425FD5B4D0065C645 /* Helpers */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		FC4BAE67D44A7BC42086073A /* Pods */ = {
@@ -213,8 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8A383C25CC76A5002EBBC9 /* LaunchScreen.storyboard in Resources */,
-				1A8A383925CC76A5002EBBC9 /* Assets.xcassets in Resources */,
+				1A51170425FD67540065C645 /* Assets.xcassets in Resources */,
+				1A51170525FD67540065C645 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,21 +260,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5116E725FD5B5D0065C645 /* BaseCollectionViewCell.swift in Sources */,
-				1A8A383425CC76A2002EBBC9 /* ViewController.swift in Sources */,
-				1A5116EC25FD5C450065C645 /* LabelViewModel.swift in Sources */,
-				1A5116EA25FD5B860065C645 /* LabelCell.swift in Sources */,
-				1A8A383025CC76A2002EBBC9 /* AppDelegate.swift in Sources */,
+				1A51170B25FD67540065C645 /* BaseCollectionViewCell.swift in Sources */,
+				1A51170A25FD67540065C645 /* AppDelegate.swift in Sources */,
+				1A51170725FD67540065C645 /* ViewController.swift in Sources */,
+				1A51170925FD67540065C645 /* LabelCell.swift in Sources */,
+				1A51170825FD67540065C645 /* LabelViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A8A383A25CC76A5002EBBC9 /* LaunchScreen.storyboard */ = {
+		1A5116F825FD67540065C645 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1A8A383B25CC76A5002EBBC9 /* Base */,
+				1A5116F925FD67540065C645 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -413,7 +406,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UNQZ8NSJN;
-				INFOPLIST_FILE = UltraKitExample/Resources/Info.plist;
+				INFOPLIST_FILE = Example/Sources/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,7 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UNQZ8NSJN;
-				INFOPLIST_FILE = UltraKitExample/Resources/Info.plist;
+				INFOPLIST_FILE = Example/Sources/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
