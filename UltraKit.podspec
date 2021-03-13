@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = "UltraKit"
-  spec.version = "0.0.1"
+  spec.version = "0.0.2"
   spec.summary = "Library for rapid prototyping of the UICollectionView layout."
   spec.homepage = "https://github.com/sergeyshalnov/UltraKit"
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   spec.framework = "UIKit"
-  spec.source_files  = "Sources/**/*.{h,m,swift}"
+  spec.source_files  = "Sources/**/*.swift"
   
   spec.source = { 
     :git => "https://github.com/sergeyshalnov/UltraKit.git", 
