@@ -15,7 +15,7 @@
 		1A51170A25FD67540065C645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170125FD67540065C645 /* AppDelegate.swift */; };
 		1A51170B25FD67540065C645 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51170325FD67540065C645 /* BaseCollectionViewCell.swift */; };
 		1A51179525FD74A60065C645 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A51179425FD74A60065C645 /* SnapKit */; };
-		1AB75F4C25FD784800606564 /* UltraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB75F4B25FD784800606564 /* UltraKit */; };
+		1AB75F5125FD78FE00606564 /* UltraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB75F5025FD78FE00606564 /* UltraKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB75F4C25FD784800606564 /* UltraKit in Frameworks */,
+				1AB75F5125FD78FE00606564 /* UltraKit in Frameworks */,
 				1A51179525FD74A60065C645 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +135,7 @@
 			name = UltraKitExample;
 			packageProductDependencies = (
 				1A51179425FD74A60065C645 /* SnapKit */,
-				1AB75F4B25FD784800606564 /* UltraKit */,
+				1AB75F5025FD78FE00606564 /* UltraKit */,
 			);
 			productName = UltraKitExample;
 			productReference = 1A8A382C25CC76A2002EBBC9 /* UltraKitExample.app */;
@@ -166,7 +166,7 @@
 			mainGroup = 1A8A382325CC76A2002EBBC9;
 			packageReferences = (
 				1A51179325FD74A60065C645 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				1AB75F4A25FD784800606564 /* XCRemoteSwiftPackageReference "UltraKit" */,
+				1AB75F4F25FD78FE00606564 /* XCRemoteSwiftPackageReference "UltraKit" */,
 			);
 			productRefGroup = 1A8A382D25CC76A2002EBBC9 /* Products */;
 			projectDirPath = "";
@@ -404,9 +404,9 @@
 				minimumVersion = 5.0.1;
 			};
 		};
-		1AB75F4A25FD784800606564 /* XCRemoteSwiftPackageReference "UltraKit" */ = {
+		1AB75F4F25FD78FE00606564 /* XCRemoteSwiftPackageReference "UltraKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sergeyshalnov/UltraKit";
+			repositoryURL = "https://github.com/sergeyshalnov/UltraKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.0.3;
@@ -420,9 +420,9 @@
 			package = 1A51179325FD74A60065C645 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		1AB75F4B25FD784800606564 /* UltraKit */ = {
+		1AB75F5025FD78FE00606564 /* UltraKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1AB75F4A25FD784800606564 /* XCRemoteSwiftPackageReference "UltraKit" */;
+			package = 1AB75F4F25FD78FE00606564 /* XCRemoteSwiftPackageReference "UltraKit" */;
 			productName = UltraKit;
 		};
 /* End XCSwiftPackageProductDependency section */
