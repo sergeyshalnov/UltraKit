@@ -16,7 +16,7 @@ public extension ControllerSection {
         public func hash(into hasher: inout Hasher) {
             switch self {
             case let .item(value):
-                hasher.combine(value.diffIdentifier)
+                hasher.combine(value.id)
             }
         }
 

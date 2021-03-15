@@ -55,8 +55,8 @@ extension Cell: Cellable {
         return viewModel
     }
 
-    public var diffIdentifier: String {
-        return viewModel.diffIdentifier
+    public var id: String {
+        return viewModel.id
     }
 
 
@@ -99,7 +99,7 @@ extension Cell: Selectable {
 extension Cell: Equatable {
 
     public static func == (lhs: Cell<T>, rhs: Cell<T>) -> Bool {
-        return lhs.viewModel.diffIdentifier == rhs.viewModel.diffIdentifier &&
+        return lhs.viewModel.id == rhs.viewModel.id &&
             lhs.type == rhs.type
     }
 

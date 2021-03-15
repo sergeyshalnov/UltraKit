@@ -9,14 +9,6 @@ import Foundation
 
 public protocol Diffable {
 
-    var diffIdentifier: String { get }
+    var id: String { get }
     
-}
-
-public extension Diffable {
-
-    var diffIdentifier: String {
-        return UUID().uuidString
-    }
-
 }
